@@ -1,67 +1,200 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="http://getbootstrap.com/docs/3.3/favicon.ico">
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="icon" href="http://getbootstrap.com/docs/3.3/favicon.ico">
 
-    <title>Starter Template for Bootstrap</title>
+		<title>Главная</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+		<!-- Bootstrap core CSS -->
+		<link href="css/bootstrap.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="css/starter-template.css" rel="stylesheet">
-  
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-
-  <body>
-
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Project name</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
-
-    <div class="container">
-
-      <div class="starter-template">
-        <h1>Bootstrap starter template</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
-      </div>
-
-    </div><!-- /.container -->
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.js"></script>
-  
-
-</body></html>
+		<!-- Custom styles for this template -->
+		<link href="css/main.css" rel="stylesheet">
+	  
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<header class="page__header_top container-fluid">       
+            <div class="header_top row">
+                    <div class="header_askquestion">
+                        <a href="#">Задать вопрос</a>
+                    </div>
+					<div class="header_phone">
+						<img src="img/telephone-handle-silhouette_1.png"/>
+						<span>8 456 345 11 34</span>
+					</div>
+					<div class="header_workhours">
+						<img src="img/clock-circular-outline_1.png"/>
+						<span>c 8:00 до 19:00 без выходных</span>
+					</div>
+					<div class="header_flags">
+						<a href="#"><img src="img/russia.png"/></a>
+						<a href="#"><img src="img/united-kingdom.png"/></a>
+					</div>
+					<div class="header_links">
+						<a href="#">Схема рынка</a>
+						<a href="#">3D схема рынка</a>
+					</div>
+					<div class="header_account">
+						<a href="#">Войти / Зарегистрироваться</a>
+					</div>
+            </div>  
+        </header>
+		<section class="page__header_bottom container-fluid">
+			<div class="header_bottom row">
+					<div class="header_mainpage">
+                        <a href="/">СЛаВЯНСКИЙ МИР</a>
+                    </div>
+					<div class="header_menu">
+					    <ul>
+							<li><a href="#">Каталог</a></li>
+							<li><a href="#">Аренда</a></li>
+							<li><a href="#">Реклама</a></li>
+							<li><a href="#">Услуги</a></li>
+							<li><a href="#">О нас</a></li>
+							<li><a href="#">Помощь</a></li>
+						</ul>
+						<img src="hamb"/>
+                    </div>
+					<div class="header_search">
+						<form>
+							<input type="search" placeholder="Поиск"/>
+							<input type="submit" value=""/>
+						</form>
+					</div>
+            </div>
+		</section>
+		<section class="page__slider container">
+			<div class="row">
+			<div class="col-16">
+					<div class="col-md-16 bxslider">
+                        <div>
+							<img src="img_res/slider1.png"/>
+							<div class="slider-content">
+								<div class="text_block">
+									<span class="heading_text">РЕКЛАМНАЯ АКЦИЯ</span><br>
+									<span class="descr_text">П.Бурдье понимал тот факт, что политическая элита фактически сохраняет плюралистический либерализм, что может привести к усилению полномочий Общественной палаты.</span>
+								</div>
+								<div class="percent_block">
+									<span>30%</span>
+								</div>
+								<div class="buy_button">
+									<a href="">КУПИТЬ!</a>
+								</div>
+							</div>
+						</div>
+                        <div><img src="img_res/slider1.png"/></div>
+                        <div><img src="img_res/slider1.png"/></div>
+                        <div><img src="img_res/slider1.png"/></div>
+                        <div><img src="img_res/slider1.png"/></div>
+                        <div><img src="img_res/slider1.png"/></div>
+                    </div>
+            </div>
+            </div>
+		</section>
+		<section class="page__catalog container">
+			<div class="row">
+				<div class="col-md-8 bigger_one">
+					<a href="#">
+						<img class="catalog_icon" src="img/catalog_icons/brickwall.png"/><br>
+						<span class="catalog_name">Строительные материалы</span>
+					</a>
+				</div>
+				<div class="col-md-8">
+					<div class="smaller_one first">
+						<a href="#">
+							<img class="catalog_icon" src="img/catalog_icons/paint-roller.png"/><br>
+							<span class="catalog_name">Отделочные материалы</span>
+						</a>
+					</div>
+					<div class="smaller_one second">
+						<a href="#">
+							<img class="catalog_icon" src="img/catalog_icons/faucet.png"/><br>
+							<span class="catalog_name">Инжинерные системы</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 doors">
+					<a href="#">
+						<img class="catalog_icon" src="img/catalog_icons/door.png"/><br>
+						<span class="catalog_name ">Окна, двери, лестницы</span>
+					</a>
+				</div>
+				<div class="col-md-4 instruments">
+					<a href="#">
+						<img class="catalog_icon" src="img/catalog_icons/driller.png"/><br>
+						<span class="catalog_name">Инструменты и техника</span>
+					</a>
+				</div>
+				<div class="col-md-4 home">
+					<a href="#">
+						<img class="catalog_icon" src="img/catalog_icons/house.png"/><br>
+						<span class="catalog_name">Всё для дома и дачи</span>
+					</a>
+				</div>
+				<div class="col-md-4 goto_catalog">
+					<a href="#">
+						<span class="catalog_name">Перейти в каталог <i class="arrow right"></i></span>
+					</a>
+				</div>
+			</div>
+		</section>
+		<section class="page__shops container">
+			<div class="row">
+				<span class="heading_block">Популярные магазины</span>
+				<span class="small_info_block">780+ магазинов</span>
+			</div>
+			<div class="bxslider">
+				<div class="row">
+					<div class="col-md-4 doors">
+					<a href="#">
+						<img class="catalog_icon" src="img/catalog_icons/door.png"/><br>
+						<span class="catalog_name ">Окна, двери, лестницы</span>
+					</a>
+				</div>
+				</div>
+				<div class="row">
+				</div>
+			</div>
+		</section>
+	
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.js"></script> -->
+		
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+<script>
+			$(function(){
+			  $('.bxslider').bxSlider({
+				//mode: 'fade',
+				captions: true,
+				responsive:true,
+				controls: true,
+				//pager: false,
+				width:1140,
+				infiniteLoop: false,
+				//pagerCustom: '#bx-pager',
+				nextText: '<i class="arrow right"></i>',
+				prevText: '<i class="arrow left"></i>'
+			  });
+			});
+		</script>
+	</body>
+</html>
